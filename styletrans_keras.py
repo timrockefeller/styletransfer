@@ -42,7 +42,7 @@ input_tensor = K.concatenate([target_image,
 model = vgg19.VGG19(input_tensor=input_tensor,
                     weights='imagenet', include_top=False)
 print('model loaded')
-
+print(model.summary())
 # define loss
 
 # 内容损失
