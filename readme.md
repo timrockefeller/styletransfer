@@ -58,14 +58,19 @@ _________________________________________________________________
 ```
 
 156s per iteration.
+
 20 iterations totally.
 
 ## load notice
 
 tensorflow: 1.13.0.rc3(nightly)
+
 python: 3.7.2.64bit
+
 CUDA version: 10.0
+
 cuDNN version: 7.0
+
 device: GTX1060 laptop (compute capability: 6.1)
 
 Check if `%Appdata%\Python\Python37\Scripts\site-packages\` and `%Python_path%\Lib\site-pakages` have different version of tensorflow.
